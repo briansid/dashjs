@@ -1,0 +1,7 @@
+/*tbody tr:not(:first-child) {
+    display: none;
+}*/
+tbody tr:nth-child(1n+3) {
+    display: none;
+    margin-left: 20px;
+}
